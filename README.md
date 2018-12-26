@@ -1,5 +1,4 @@
-# ipxe
-Custom iPXE README File
+#Custom iPXE 
 
 Quick start guide:
 
