@@ -11,4 +11,11 @@ You can customize by editing the file src/preboot.ipxe with appropriate commands
    make bin/undionly.kpxe EMBED=preboot.ipxe
 ```
 
+UEFI supported ROM image 
+
+```
+   cd src
+   make bin-x86_64-efi/ipxe.efi EMBED=preboot.ipxe
+```
+
 For any more detailed instructions, see http://ipxe.org
